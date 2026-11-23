@@ -1,60 +1,38 @@
-<<<<<<< HEAD
-# Blog-application
-=======
-# BlogSpace - Frontend Blog Application
+# BlogSpace - Full Stack Blog Application
 
-A beginner frontend project built using HTML, CSS,
-JavaScript and localStorage.
-
-## Pages
-
-- Home page
-- Login page
-- Register page
-- Dashboard
-- Create Blog page
-- Edit Blog
-- Delete Blog
+## About
+BlogSpace is a blog application with user
+registration, login, and blog creation.
 
 ## Technologies
-
-- HTML5
-- CSS3
-- JavaScript
-- Browser localStorage
-
-## How to Run
-
-1. Download or clone this repository.
-2. Open the project folder in VS Code.
-3. Open index.html in your browser.
-4. Register a demo profile.
-5. Login using your registered email.
-6. Create and manage blog posts.
-
-You can also use VS Code Live Server.
+- HTML, CSS, JavaScript
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
 
 ## Features
+- User registration
+- User login
+- Create blog
+- View all blogs
+- View personal blogs
+- Password hashing
 
-- Responsive layout
-- Blog creation
-- Blog editing
-- Blog deletion
-- Basic form validation
-- Browser storage
+## Setup
+1. Clone this repository.
+2. Navigate to backend.
+3. Run npm install.
+4. Configure your .env file.
+5. Run npm run dev.
+6. Open the frontend using Live Server.
 
-## Security Notice
-
-This is a learning project.
-
-Login is simulated on the frontend.
-Passwords are not securely authenticated.
-Do not enter real credentials or sensitive information.
-
-A production application requires a secure backend,
-authentication, authorization and a database.
+## API Endpoints
+POST /api/auth/register
+POST /api/auth/login
+POST /api/blogs
+GET /api/blogs
+GET /api/blogs/mine
 
 ## Author
-
 Rohit Jadhav
->>>>>>> 5f5cc3a (1st commit)
